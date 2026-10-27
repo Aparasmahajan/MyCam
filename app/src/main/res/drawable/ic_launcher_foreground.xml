@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Viewfinder corners around a record dot. The safe zone is the centre 66dp of 108dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFF5C842"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M34,44 L34,34 L44,34 M64,34 L74,34 L74,44 M74,64 L74,74 L64,74 M44,74 L34,74 L34,64" />
+    <path
+        android:fillColor="#FFE5484D"
+        android:pathData="M54,54m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+</vector>

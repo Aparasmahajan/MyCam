@@ -1,0 +1,41 @@
+# Gradle / Kotlin build output
+.gradle/
+.kotlin/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+*.log
+
+# Machine-specific SDK path (each machine writes its own)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.navigation/
+out/
+
+# Signing keys and secrets: never commit these
+*.keystore
+*.jks
+keystore.properties
+signing.properties
+google-services.json
+*.env
+
+# Built apps
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep the Gradle wrapper jar (CI needs it to run ./gradlew)
+!gradle/wrapper/gradle-wrapper.jar
